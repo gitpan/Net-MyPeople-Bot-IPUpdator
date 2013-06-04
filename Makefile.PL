@@ -22,17 +22,18 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Net::MyPeople::Bot::IPUpdator",
   "PREREQ_PM" => {
-    "Data::Printer" => 0,
     "Getopt::Mini" => 0,
     "LWP::Simple" => 0,
     "Log::Log4perl" => 0,
+    "Moose" => 0,
     "WWW::Mechanize" => 0,
+    "namespace::autoclean" => 0,
     "strict" => 0,
     "utf8" => 0,
     "warnings" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => ""
   }
